@@ -1,3 +1,5 @@
+#Adjusts system volume based on the vertical position of the index finger in the camera feed. Uses MediaPipe for hand tracking, OpenCV for video capture, and pycaw for audio control. Pressing space bar closes the program.
+
 import cv2
 import mediapipe as mp
 import ctypes
